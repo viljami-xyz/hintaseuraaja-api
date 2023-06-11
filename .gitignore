@@ -1,2 +1,33 @@
-venv
-DS_Store
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+env/
+*.env
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+
+# Dependencies
+/.venv
+/.env
+
+# Logs and databases
+*.log
+*.sqlite3
+
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+.DS_Store

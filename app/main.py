@@ -1,8 +1,8 @@
 """ Run API """
 
 from fastapi import FastAPI
-from app.hintascraper.services.hintaopas import favorites
-from app.hintascraper.models.hintaopas import FavoritesOut
+from hintascraper.services.hintaopas import favorites
+from hintascraper.models.hintaopas import FavoritesOut
 
 app = FastAPI()
 
